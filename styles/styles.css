@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 :root{
-    --bgcolor : #080440;
-    --card-bg-color : #02042A
+    --bgcolor : #f4f4f8;
+    --card-bg-color : #f4f4f8;
+    --tcolor-1: #181E1F;
+    --hicolor: #E54E1C
 }
 
 * {
@@ -25,7 +27,7 @@ canvas.particles-js-canvas-el{
 
 .nav_section .navbar-brand {
     font-size: 28px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .nav_section .navbar-nav li {
@@ -33,7 +35,7 @@ canvas.particles-js-canvas-el{
 }
 
 .nav_section .navbar-nav li a{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     font-size: 15px;
 }
 
@@ -41,7 +43,7 @@ canvas.particles-js-canvas-el{
     content: "";
     width: 0px;
     height: 0px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     bottom:7px;
     transition: 0.5s;
@@ -51,7 +53,7 @@ canvas.particles-js-canvas-el{
     content: "";
     width: 17px;
     height: 2px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     bottom:7px;
     transition: 0.5s;
@@ -64,14 +66,14 @@ canvas.particles-js-canvas-el{
 }
 
 .hero_section .row h3,h1{
-    color: white
+    color: rgb(0, 0, 0)
 }
 .hero_section .row p{
-    color: #D1DFC9
+    color: var(--tcolor-1)
 }
 
 .hero_section .row a{
-    color: #d4421e    
+    color: var( --hicolor) 
 }
 
 .hero_section .row h1{
@@ -103,32 +105,32 @@ canvas.particles-js-canvas-el{
 .blog .card-body .title{
     font-size:22px;
     font-weight: 500;
-    color: #D1DFC9
+    color: var(--tcolor-1)
 }
 
 .blog .card-body .text{
     /* font-size:22px;
     font-weight: 500; */
-    color: #D1DFC9
+    color: var(--tcolor-1)
 }
 
 .blog .card-body .read_more{
     /* font-size:22px;
     font-weight: 500; */
-    color: #D4421E
+    color:  var(--hicolor)
 }
 
 .con{
     background: var(--bgcolor);
-    border-top: 4px solid #D4421E;
+    border-top: 4px solid var(--hicolor);
     padding: 40px 0px;
     margin-top:50px;
 }
 
 .con .logo-area .fa{
-    color: #D1DFC9;
+    color: var(--tcolor-1);
     font-size: 17px !important;
-    border: 2px solid #D4421E;
+    border: 2px solid var(--hicolor);
     padding: 10px;
     height: 40px;
     width: 40px;
@@ -154,10 +156,10 @@ canvas.particles-js-canvas-el{
     margin-top: 100px;
 }
 .pub .har_paper .perodical{
-    color: #D4421E !important
+    color: var(--hicolor) !important
 }
 .pub .har_paper{
-    color: #D1DFC9;
+    color: var(--tcolor-1);
     position: relative;
     width: 80%;
     padding-right: 15px;
@@ -165,7 +167,7 @@ canvas.particles-js-canvas-el{
 }
 .pub .har_paper .title a{
     text-decoration: none;
-    color: #D1DFC9;
+    color: var(--tcolor-1);
     font-weight:800
 }
 
@@ -185,8 +187,8 @@ canvas.particles-js-canvas-el{
 }
 
 .pub .publications h2.year {
-    color: #D1DFC9;
-    border-top: 1px solid #D4421E;
+    color: var(--tcolor-1);
+    border-top: 1px solid var(--hicolor);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
@@ -198,7 +200,7 @@ canvas.particles-js-canvas-el{
 }
 
 .project .project_content{
-    color: #D1DFC9
+    color: var(--tcolor-1)
 }
 
 .project .project_content p{
@@ -206,12 +208,12 @@ canvas.particles-js-canvas-el{
 }
 
 .project .project_content .link a{
-    color: #D4421E;
+    color: var(--hicolor);
     text-decoration: none
 }
 
 .project .project_content .contrib{
-    color: #D4421E;
+    color: var(--hicolor);
 }
 
 .project .project_content .des {
@@ -229,9 +231,9 @@ canvas.particles-js-canvas-el{
 }
 
 .skill .row{
-    color:#D1DFC9
+    color:var(--tcolor-1)
 }
 
 .skill span{
-    color:#D4421E
+    color:var(--hicolor)
 }
